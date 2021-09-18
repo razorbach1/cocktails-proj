@@ -1,7 +1,7 @@
 provider "aws" {
   region = var.region
-  access_key = "AKIAU2G34GO5QBQYZX23"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 data "aws_eks_cluster" "cluster" {
