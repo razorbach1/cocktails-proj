@@ -5,7 +5,7 @@
 # State files
 *.tfstate
 *.tfstate.*
-*.exe
+terraform.exe
 # Crash log files
 *.log
 
