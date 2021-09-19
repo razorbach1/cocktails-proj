@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cocktailsproj:
+    image: cocktailsproj
+    build:
+      context: .
+      dockerfile: ./Dockerfile
