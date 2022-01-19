@@ -1,6 +1,6 @@
 
 variable "region" {
-  default = "us-east-1"
+  default = "eu-central-1"
 }
 
 variable "map_accounts" {
@@ -38,8 +38,8 @@ variable "map_users" {
         groups   = ["system:masters"]
     },
     {
-      userarn  = "arn:aws:iam::331173606331:user/Omer-proj"
-      username = "Omer-proj"
+      userarn  = "arn:aws:iam::331173606331:user/Raz-proj"
+      username = "Raz-proj"
       groups   = ["system:masters"]
     }
   ]
